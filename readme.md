@@ -51,3 +51,36 @@ dan beberapa data yang pernah di input
 - IONS Icon
 - AOS Animate
 - FontAwesome
+
+
+## Struktur Folder
+
+airlines
+ ┣ data
+ ┣ gambar
+ ┣ library
+ ┃ ┣ assets
+ ┃ ┃ ┣ css
+ ┃ ┃ ┃ ┣ bootstrap
+ ┃ ┃ ┣ fonts
+ ┃ ┃ ┃ ┣ flaticon
+ ┃ ┃ ┃ ┃ ┣ font
+ ┃ ┃ ┃ ┃ ┣ license
+ ┃ ┃ ┃ ┣ fontawesome
+ ┃ ┃ ┃ ┃ ┣ css
+ ┃ ┃ ┃ ┃ ┗ fonts
+ ┃ ┃ ┃ ┣ ionicons
+ ┃ ┃ ┃ ┃ ┣ css
+ ┃ ┃ ┃ ┃ ┣ fonts
+ ┃ ┃ ┃ ┗ law-icons
+ ┃ ┃ ┃ ┃ ┣ font
+ ┃ ┃ ┃ ┃ ┣ license
+ ┃ ┃ ┣ images
+ ┃ ┃ ┣ js
+ ┃ ┃ ┣ scss
+ ┃ ┃ ┃ ┣ bootstrap
+ ┃ ┃ ┃ ┃ ┣ mixins
+ ┃ ┗ places-master
+ ┣ index.php
+ ┣ pesan-tiket.php
+ ┗ readme.md
