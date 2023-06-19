@@ -32,6 +32,16 @@ $bandara_tujuan = [
   ],
 ];
 
+// Fungsi untuk membandingkan nilai pada kolom "nama"
+function sortBandara($a, $b)
+{
+  return strcmp($a["nama_bandara"], $b["nama_bandara"]);
+}
+
+// Mengurutkan array berdasarkan kolom "nama"
+usort($bandara_asal, "sortBandara");
+usort($bandara_tujuan, "sortBandara");
+
 
 ?>
 
