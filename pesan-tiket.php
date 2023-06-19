@@ -30,14 +30,13 @@ $bandara_tujuan = [
   ],
 ];
 
-
 // melakukan Queri data bandara asal
 $searchBandaraAsal = $_POST['bandara_asal'];
 $foundBandaraAsal = array();
 foreach ($bandara_asal as $bandara_asal) {
   if ($bandara_asal['nama_bandara'] == $searchBandaraAsal) {
     $foundBandaraAsal[] = $bandara_asal;
-  }
+  } 
 }
 if (!empty($foundBandaraAsal)) {
   foreach ($foundBandaraAsal as $foundBandaraAsal) {
@@ -80,13 +79,10 @@ function postData($post)
 {
   // Mengubah array menjadi JSON
   $jsonData = json_encode($post);
-  // var_dump($jsonData);
 
   // Menulis data JSON ke file
   $file = 'data/data.json';
   $jsonData = file_get_contents($file);
-
-
 
   // Memeriksa apakah file JSON tidak kosong
   if ($jsonData !== false) {
@@ -111,7 +107,6 @@ postData($post);
 // Fungsi Rupiah
 function rupiah($angka)
 {
-
   $hasil_rupiah = "Rp " . number_format($angka, 0, ',', '.');
   return $hasil_rupiah;
 }
