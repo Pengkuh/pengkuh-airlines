@@ -212,7 +212,7 @@ usort($bandara_tujuan, "sortBandara");
                 </div>
                 <!-- Akhir Form Harga Tiket -->
               </div>
-              <div class="row probootstrap-form">
+              <div class="row ">
                 <!-- Button Submit -->
                 <div class="col-md ">
                   <input type="submit" value="Submit" class="btn btn-primary btn-block">
