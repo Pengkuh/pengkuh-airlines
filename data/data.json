@@ -9,58 +9,10 @@
   },
   {
     "maskapai": "Sultan Airlines",
-    "asal_penerbangan": "Abdul Rachman Saleh (MLG)",
-    "tujuan_penerbangan": "Sultan Iskandarmuda (BTJ)",
-    "harga_tiket": "2500000",
-    "pajak": 110000,
-    "total_harga_tiket": 2610000
-  },
-  {
-    "maskapai": "Sultan Airlines",
-    "asal_penerbangan": "Abdul Rachman Saleh (MLG)",
+    "asal_penerbangan": "Husein Sastranegara (BDO)",
     "tujuan_penerbangan": "Hasanuddin (UPG)",
-    "harga_tiket": "1500000",
-    "pajak": 110000,
-    "total_harga_tiket": 1610000
-  },
-  {
-    "maskapai": "Sultan Airlines",
-    "asal_penerbangan": "Abdul Rachman Saleh (MLG)",
-    "tujuan_penerbangan": "Hasanuddin (UPG)",
-    "harga_tiket": "1500000",
-    "pajak": 110000,
-    "total_harga_tiket": 1610000
-  },
-  {
-    "maskapai": "Sultan Airlines",
-    "asal_penerbangan": "Abdul Rachman Saleh (MLG)",
-    "tujuan_penerbangan": "Hasanuddin (UPG)",
-    "harga_tiket": "1500000",
-    "pajak": 110000,
-    "total_harga_tiket": 1610000
-  },
-  {
-    "maskapai": "Sultan Airlines",
-    "asal_penerbangan": "Abdul Rachman Saleh (MLG)",
-    "tujuan_penerbangan": "Hasanuddin (UPG)",
-    "harga_tiket": "1500000",
-    "pajak": 110000,
-    "total_harga_tiket": 1610000
-  },
-  {
-    "maskapai": "Sultan Airlines",
-    "asal_penerbangan": "Abdul Rachman Saleh (MLG)",
-    "tujuan_penerbangan": "Hasanuddin (UPG)",
-    "harga_tiket": "1500000",
-    "pajak": 110000,
-    "total_harga_tiket": 1610000
-  },
-  {
-    "maskapai": "Pengkuh Fernandez",
-    "asal_penerbangan": "Juanda (SUB)",
-    "tujuan_penerbangan": "Ngurah Rai (DPS)",
-    "harga_tiket": "12000000",
-    "pajak": 120000,
-    "total_harga_tiket": 12120000
+    "harga_tiket": "15000000",
+    "pajak": 100000,
+    "total_harga_tiket": 15100000
   }
 ]

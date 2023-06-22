@@ -36,7 +36,7 @@ $foundBandaraAsal = array();
 foreach ($bandara_asal as $bandara_asal) {
   if ($bandara_asal['nama_bandara'] == $searchBandaraAsal) {
     $foundBandaraAsal[] = $bandara_asal;
-  } 
+  }
 }
 if (!empty($foundBandaraAsal)) {
   foreach ($foundBandaraAsal as $foundBandaraAsal) {
@@ -64,14 +64,28 @@ if (!empty($foundBandaraTujuan)) {
   echo "No students found with the given age.";
 }
 
+$harga_tiket = $_POST['harga'];
+
+// Fungsi Total Pajak
+function totalPajak($harga_bandara_asal, $harga_bandara_tujuan)
+{
+  return $harga_bandara_asal + $harga_bandara_tujuan;
+}
+
+function totalHarga($harga_bandara_asal, $harga_bandara_tujuan, $harga_tiket)
+{
+  return $harga_bandara_asal + $harga_bandara_tujuan + $harga_tiket;
+}
+
+
 // Data Array Untuk Post Data Ke Json
 $post = [
   'maskapai' => $_POST['nama_maskapai'],
   'asal_penerbangan' => $nama_bandara_asal,
   'tujuan_penerbangan' => $nama_bandara_tujuan,
   'harga_tiket' => $_POST['harga'],
-  'pajak' => $harga_bandara_asal + $harga_bandara_tujuan,
-  'total_harga_tiket' => $harga_bandara_asal + $harga_bandara_tujuan + $_POST['harga']
+  'pajak' => totalPajak($harga_bandara_asal, $harga_bandara_tujuan),
+  'total_harga_tiket' => totalHarga($harga_bandara_asal, $harga_bandara_tujuan, $harga_tiket)
 ];
 
 // Function melakukan post data
@@ -99,10 +113,8 @@ function postData($post)
   return $post;
 }
 
-
 // Data Di Post
 postData($post);
-
 
 // Fungsi Rupiah
 function rupiah($angka)
@@ -112,8 +124,7 @@ function rupiah($angka)
 }
 ?>
 
-
-
+<!-- HTML -->
 <!DOCTYPE html>
 <html lang="en">
 
